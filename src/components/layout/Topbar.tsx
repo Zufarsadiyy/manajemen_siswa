@@ -22,7 +22,7 @@ export default function Topbar({
   const router = useRouter();
   const menuMap: Record<string, string> = {};
 
-  const title = menuMap[pathname] || "SMK Negeri 1 Malang";
+  const title = menuMap[pathname] || "SMK Telekomunikasi Tunas Harapan";
 
   const handleLogout = () => {
     router.push("/auth/login");
